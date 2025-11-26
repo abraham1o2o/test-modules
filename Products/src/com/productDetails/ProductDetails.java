@@ -18,9 +18,9 @@ public class ProductDetails {
 
     @Override
     public String toString() {
-        return "ProductDetails{" + "productName='" + productName + '\'' +
-                ", price=" + price +
-                ", seller='" + seller + '\'' +
+        return "ProductDetails{" + "productName='" + getProductName() + '\'' +
+                ", price=" + getPrice() +
+                ", seller='" + getSeller() + '\'' +
                 '}';
     }
 }
