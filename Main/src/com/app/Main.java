@@ -1,11 +1,12 @@
 package com.app;
-import com.account.Account;
-import com.product.Product;
+import com.entry.Account;
+import com.entry.Product;
 
 public class Main {
     public static void main(String[] args) {
-      new Account().registerUser("James", "mycat123");
+      new Account().registerUser("James", "mycat");
       new Account().registerUser("Jene","password123");
+      new Account().registerUser("nigel","meron");
 
       new Account().displayUsers();
 
