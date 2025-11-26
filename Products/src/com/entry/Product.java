@@ -1,4 +1,4 @@
-package com.product;
+package com.entry;
 
 import com.productDetails.ProductDetails;
 import java.util.List;
