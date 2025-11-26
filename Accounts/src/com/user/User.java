@@ -2,7 +2,7 @@ package com.user;
 
 public class User {
     String email;
-    private final String password;
+    String password;
     int id;
 
     public User(String email, String password, int id) {
