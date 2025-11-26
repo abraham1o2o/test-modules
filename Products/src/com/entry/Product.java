@@ -13,7 +13,7 @@ public class Product {
     }
 
     public void displayProducts() {
-        for (ProductDetails p : products) System.out.println(p);
+        for (ProductDetails showProd : products) System.out.println(showProd);
     }
 
 }
