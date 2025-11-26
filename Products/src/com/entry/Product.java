@@ -8,8 +8,8 @@ public class Product {
     private static final List<ProductDetails> products = new ArrayList<>();
 
     public void addProduct(String productName, int price, String seller) {
-        ProductDetails p1 = new ProductDetails(productName,price,seller);
-        products.add(p1);
+        ProductDetails newProduct = new ProductDetails(productName,price,seller);
+        products.add(newProduct);
     }
 
     public void displayProducts() {
