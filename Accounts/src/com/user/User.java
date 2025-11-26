@@ -20,7 +20,7 @@ public class User {
     public String toString() {
         return "User{" +
                 "email='" + getEmail() + '\'' +
-                ", password='" + getPassword() + '\'' +
+                ", password='" + "password cannot be revealed" + '\'' +
                 ", id=" + getId() +
                 '}';
     }
