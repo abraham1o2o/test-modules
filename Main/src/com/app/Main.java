@@ -12,6 +12,7 @@ public class Main {
 
       new Product().addProduct("Iphone 14 Pro Max", 900, "Apple");
       new Product().addProduct("Samsung Galaxy s22 ", 800, "Samsung");
+      new Product().addProduct("Toshiba TV 40 Inch ", 400, "Samsung");
 
       new Product().displayProducts();
     }
