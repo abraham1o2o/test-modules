@@ -1,4 +1,4 @@
-package com.account;
+package com.entry;
 
 import com.user.User;
 import java.util.ArrayList;

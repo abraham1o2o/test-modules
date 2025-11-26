@@ -1,3 +1,3 @@
 module Accounts {
-    exports com.account;
+    exports com.entry;
 }

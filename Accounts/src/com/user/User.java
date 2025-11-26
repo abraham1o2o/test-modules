@@ -2,7 +2,7 @@ package com.user;
 
 public class User {
     String email;
-    private final String password;
+    String password;
     int id;
 
     public User(String email, String password, int id) {
@@ -12,16 +12,14 @@ public class User {
 
     public String getEmail() { return email; }
 
-    public String getPassword() {return password; }
-
     public int getId() { return id; }
 
     @Override
     public String toString() {
         return "User{" +
-                "email='" + email + '\'' +
-                ", password='" + password + '\'' +
-                ", id=" + id +
+                "email='" + getEmail() + '\'' +
+                ", password='" + "password cannot be revealed" + '\'' +
+                ", id=" + getId() +
                 '}';
     }
 }
