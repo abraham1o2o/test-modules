@@ -1,6 +1,6 @@
 package com.app;
 import com.entry.Account;
-import com.entry.Product;
+import com.entry1.Product;
 
 public class Main {
     public static void main(String[] args) {

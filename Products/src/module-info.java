@@ -1,3 +1,3 @@
 module Products {
-    exports com.entry;
+    exports com.entry1;
 }
