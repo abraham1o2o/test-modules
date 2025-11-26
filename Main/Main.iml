@@ -9,5 +9,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Accounts" />
     <orderEntry type="module" module-name="Products" />
+    <orderEntry type="module" module-name="modules" />
   </component>
 </module>
